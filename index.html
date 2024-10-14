@@ -192,20 +192,25 @@ list-style-position:outside;
 <style>
     /* Override styles */
     #litPageDiv .PageHome h1, 
-    #litPageDiv .PageHome h2,
     .module-html h1,
-    .module-html h2 {
+    body h1 {
         font-weight: bold !important;
-        color: #000000 !important;
-        font-size: 2em !important;
+        color: #FFFFFF !important; /* Changed to white */
+        font-size: 2.5em !important;
         line-height: 1.2 !important;
         margin-bottom: 0.5em !important;
         font-family: Arial, sans-serif !important;
     }
 
     #litPageDiv .PageHome h2,
-    .module-html h2 {
-        font-size: 1.5em !important;
+    .module-html h2,
+    body h2 {
+        font-weight: bold !important;
+        color: #FFFFFF !important; /* Changed to white */
+        font-size: 2em !important; /* Increased size */
+        line-height: 1.2 !important;
+        margin-bottom: 0.5em !important;
+        font-family: Arial, sans-serif !important;
     }
 
     body .button.button--dark,
@@ -220,6 +225,8 @@ list-style-position:outside;
         cursor: pointer !important;
         font-size: 1em !important;
     }
+
+    /* Add more specific overrides as needed */
 </style>
     <script src="./settings.js" defer></script>
     <script type="module" crossorigin src="/assets/index-DN7lKU1r.js" defer></script>
